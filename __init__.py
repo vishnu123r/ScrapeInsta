@@ -37,9 +37,3 @@ class ScrapInsta():
             attributes["email"] = get_email(profile)
             attributes["phone"] = get_phone(profile)
         return (attributes, data_dict)
-            
-
-        
-
-insta = ScrapInsta()
-out = insta.scrape_data("grantcardone")
